@@ -1,0 +1,30 @@
+Region Name,Region,Endpoint,Protocol
+US East (Ohio),us-east-2,support.us-east-1.amazonaws.com,HTTPS
+US East (N. Virginia),us-east-1,support.us-east-1.amazonaws.com,HTTPS
+US West (N. California),us-west-1,support.us-east-1.amazonaws.com,HTTPS
+US West (Oregon),us-west-2,support.us-east-1.amazonaws.com,HTTPS
+Africa (Cape Town),af-south-1,support.us-east-1.amazonaws.com,HTTPS
+Asia Pacific (Hong Kong),ap-east-1,support.us-east-1.amazonaws.com,HTTPS
+Asia Pacific (Hyderabad),ap-south-2,support.us-east-1.amazonaws.com,HTTPS
+Asia Pacific (Jakarta),ap-southeast-3,support.us-east-1.amazonaws.com,HTTPS
+Asia Pacific (Melbourne),ap-southeast-4,support.us-east-1.amazonaws.com,HTTPS
+Asia Pacific (Mumbai),ap-south-1,support.us-east-1.amazonaws.com,HTTPS
+Asia Pacific (Osaka),ap-northeast-3,support.us-east-1.amazonaws.com,HTTPS
+Asia Pacific (Seoul),ap-northeast-2,support.us-east-1.amazonaws.com,HTTPS
+Asia Pacific (Singapore),ap-southeast-1,support.us-east-1.amazonaws.com,HTTPS
+Asia Pacific (Sydney),ap-southeast-2,support.us-east-1.amazonaws.com,HTTPS
+Asia Pacific (Tokyo),ap-northeast-1,support.us-east-1.amazonaws.com,HTTPS
+Canada (Central),ca-central-1,support.us-east-1.amazonaws.com,HTTPS
+Europe (Frankfurt),eu-central-1,support.us-east-1.amazonaws.com,HTTPS
+Europe (Ireland),eu-west-1,support.us-east-1.amazonaws.com,HTTPS
+Europe (London),eu-west-2,support.us-east-1.amazonaws.com,HTTPS
+Europe (Milan),eu-south-1,support.us-east-1.amazonaws.com,HTTPS
+Europe (Paris),eu-west-3,support.us-east-1.amazonaws.com,HTTPS
+Europe (Spain),eu-south-2,support.us-east-1.amazonaws.com,HTTPS
+Europe (Stockholm),eu-north-1,support.us-east-1.amazonaws.com,HTTPS
+Europe (Zurich),eu-central-2,support.us-east-1.amazonaws.com,HTTPS
+Middle East (Bahrain),me-south-1,support.us-east-1.amazonaws.com,HTTPS
+Middle East (UAE),me-central-1,support.us-east-1.amazonaws.com,HTTPS
+South America (S?o Paulo),sa-east-1,support.us-east-1.amazonaws.com,HTTPS
+AWS GovCloud (US-East),us-gov-east-1,support.us-gov-west-1.amazonaws.com,HTTPS
+AWS GovCloud (US-West),us-gov-west-1,support.us-gov-west-1.amazonaws.com,HTTPS

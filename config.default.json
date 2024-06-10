@@ -1,0 +1,6 @@
+{
+  "ssl": "disabled",
+  "port": 2901,
+  "database-proxy": {
+  }
+}

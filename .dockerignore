@@ -1,0 +1,9 @@
+**
+!java-database-proxy/src/main/webapp/**
+!java-database-proxy/src/main/java/resources/**
+
+!package.json
+!bin/**
+!lib/**
+!config.default.json
+!Dockerfile.init.sh

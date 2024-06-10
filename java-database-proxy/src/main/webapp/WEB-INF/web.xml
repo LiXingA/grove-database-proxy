@@ -1,0 +1,108 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <display-name>My App</display-name>
+
+  <filter>
+    <filter-name>CorsFilter</filter-name>
+    <filter-class>org.apache.catalina.filters.CorsFilter</filter-class>
+    <init-param>
+      <param-name>cors.allowed.origins</param-name>
+      <param-value>*</param-value>
+    </init-param>
+    <init-param>
+      <param-name>cors.allowed.methods</param-name>
+      <param-value>GET,POST,HEAD,OPTIONS,PUT</param-value>
+    </init-param>
+    <init-param>
+      <param-name>cors.allowed.headers</param-name>
+      <param-value>Content-Type,X-Requested-With,accept,Origin,Access-Control-Request-Method,Access-Control-Request-Headers</param-value>
+    </init-param>
+    <init-param>
+      <param-name>cors.exposed.headers</param-name>
+      <param-value>Access-Control-Allow-Origin,Access-Control-Allow-Credentials</param-value>
+    </init-param>
+    <init-param>
+      <param-name>cors.support.credentials</param-name>
+      <param-value>false</param-value>
+    </init-param>
+    <init-param>
+      <param-name>cors.preflight.maxage</param-name>
+      <param-value>1800</param-value>
+    </init-param>
+  </filter>
+  <filter-mapping>
+    <filter-name>CorsFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+
+
+  <servlet>
+    <servlet-name>MysqlServlet</servlet-name>
+    <servlet-class>servlet.relations.MysqlServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MysqlServlet</servlet-name>
+    <url-pattern>/mysql/*</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>MssqlServlet</servlet-name>
+    <servlet-class>servlet.relations.MssqlServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MssqlServlet</servlet-name>
+    <url-pattern>/mssql/*</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>PostgreSQLServlet</servlet-name>
+    <servlet-class>servlet.relations.PostgreSQLServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PostgreSQLServlet</servlet-name>
+    <url-pattern>/postgres/*</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>SnowflakeServlet</servlet-name>
+    <servlet-class>servlet.relations.SnowflakeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SnowflakeServlet</servlet-name>
+    <url-pattern>/snowflake/*</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>MongoServlet</servlet-name>
+    <servlet-class>servlet.mongo.MongoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MongoServlet</servlet-name>
+    <url-pattern>/mongodb/*</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>DatabasesServlet</servlet-name>
+    <servlet-class>servlet.databases.DatabasesServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DatabasesServlet</servlet-name>
+    <url-pattern>/databases</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>AddDatabaseServlet</servlet-name>
+    <servlet-class>servlet.databases.AddDatabaseServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddDatabaseServlet</servlet-name>
+    <url-pattern>/addDatabase</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>RemoveDatabaseServlet</servlet-name>
+    <servlet-class>servlet.databases.RemoveDatabaseServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RemoveDatabaseServlet</servlet-name>
+    <url-pattern>/removeDatabase</url-pattern>
+  </servlet-mapping>
+</web-app>
+
+
+

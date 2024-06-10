@@ -1,0 +1,25 @@
+node_modules
+ssl/localhost.csr
+*.log
+package-lock.json
+build/**
+test/**
+*.eslintcache
+static/css/**
+static/js/**
+**/lib/*.jar
+java-database-proxy/src/main/resources/dbconfig.json
+java-database-proxy/src/main/resources/dbconfig_bak.json
+upload/**
+!upload/.gitignore
+!upload/.gitkeep
+!upload/readme.md
+config.json
+.classpath
+.project
+.settings
+target
+*.class
+*.map
+# java-database-proxy/src/main/webapp/css/**
+# java-database-proxy/src/main/webapp/js/**

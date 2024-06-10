@@ -1,0 +1,1 @@
+node .\bin\grove-database-proxy start

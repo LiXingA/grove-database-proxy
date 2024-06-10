@@ -1,0 +1,126 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    //
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "AuthUserQuery",
+            "request": "launch",
+            "mainClass": "AuthUserQuery",
+            "projectName": "server"
+        },
+        {
+            "type": "java",
+            "name": "BrowseTable",
+            "request": "launch",
+            "mainClass": "BrowseTable",
+            "projectName": "server"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "server"
+        },
+        {
+            "type": "java",
+            "name": "AddColumnLoadAppend",
+            "request": "launch",
+            "mainClass": "AddColumnLoadAppend",
+            "projectName": "server"
+        },
+        {
+            "type": "java",
+            "name": "AddColumnLoadAppend",
+            "request": "launch",
+            "mainClass": "com.example.bigquery.AddColumnLoadAppend",
+            "projectName": "server"
+        },
+        {
+            "type": "java",
+            "name": "StartServer",
+            "request": "launch",
+            "mainClass": "StartServer",
+            "projectName": "server"
+        },
+        {
+            "type": "java",
+            "name": "QuickStart",
+            "request": "launch",
+            "mainClass": "QuickStart",
+            "projectName": "server"
+        },
+        {
+            "type": "java",
+            "name": "Launch OneServletContext",
+            "request": "launch",
+            "mainClass": "OneServletContext",
+            "projectName": "server"
+        },
+        {
+            "type": "java",
+            "name": "Launch SimplestServer",
+            "request": "launch",
+            "mainClass": "SimplestServer",
+            "projectName": "server"
+        },
+        {
+            "type": "java",
+            "name": "Launch Testmongo",
+            "request": "launch",
+            "mainClass": "com.alibaba.datax.plugin.reader.mongodbreader.Testmongo",
+            "projectName": "server"
+        },
+        {
+            "type": "java",
+            "name": "Launch MongoDBReaderTest",
+            "request": "launch",
+            "mainClass": "com.alibaba.datax.plugin.reader.mongodbreader.MongoDBReaderTest",
+            "projectName": "server"
+        },
+        {
+            "type": "java",
+            "name": "Launch CommonRdbmsReaderTest",
+            "request": "launch",
+            "mainClass": "com.alibaba.datax.plugin.rdbms.reader.CommonRdbmsReaderTest",
+            "projectName": "server"
+        },
+        {
+            "type": "java",
+            "name": "Launch CommonRdbmsReader",
+            "request": "launch",
+            "mainClass": "com.alibaba.datax.plugin.rdbms.reader.CommonRdbmsReader",
+            "projectName": "server"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestConfig",
+            "request": "launch",
+            "mainClass": "TestConfig",
+            "projectName": "server"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "nodejs proxy",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "runtimeArgs": [
+                "--inspect"
+            ],
+            "program": "${workspaceRoot}/bin/grove-database-proxy",
+            "args": [
+                "start"
+            ],
+            "env": {
+                "NODE_ENV": "development",
+                "DEBUG": "DEBUG"
+            }
+        }
+    ]
+}
